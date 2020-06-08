@@ -5,6 +5,6 @@
     install_source_bashrc
     gcl radiasoft/rsopt
     cd rsopt
-    pyenv shell py3
+    install_not_strict_cmd pyenv shell py3
     pip install .
 ) >& ~/.tmp-jupyter.radiasoft.org.err
