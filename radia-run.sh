@@ -1,8 +1,9 @@
 #!/bin/bash
 : nothing for now
 (
+    source ~/.bashrc
     set -e
-    mkdir -p ~/.tmp-jupyter.radiasoft.org
+    mkdir -p ~/.tmp-jupyter.radiasoft.orgnn
     cd ~/.tmp-jupyter.radiasoft.org
     gcl radiasoft/rsopt
     cd rsopt
