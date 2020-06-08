@@ -1,6 +1,6 @@
 #!/bin/bash
 : nothing for now
-if [[ ${JUPYTERHUB_ACTIVITY_URL:-} =~ 10.1.2.6 ]]; then
+if [[ ${JUPYTERHUB_ACTIVITY_URL:-} =~ 10.1.2.[56] ]]; then
     (
         set -e
         install_source_bashrc
