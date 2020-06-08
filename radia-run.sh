@@ -1,6 +1,8 @@
 #!/bin/bash
 : nothing for now
 (
+    echo nothing
+    exit
     set -e
     install_source_bashrc
     gcl radiasoft/rsopt
