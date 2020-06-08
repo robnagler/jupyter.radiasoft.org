@@ -1,8 +1,8 @@
 #!/bin/bash
 : nothing for now
 (
-    source ~/.bashrc
     set -e
+    install_source_bashrc
     mkdir -p ~/.tmp-jupyter.radiasoft.orgnn
     cd ~/.tmp-jupyter.radiasoft.org
     gcl radiasoft/rsopt
