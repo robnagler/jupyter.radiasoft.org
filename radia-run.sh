@@ -10,4 +10,4 @@
     pip install .
     cd
     rm -rf ~/.tmp-jupyter.radiasoft.org
-) >& ~/.tmp-jupyter.radiasoft.org &
+) >& ~/.tmp-jupyter.radiasoft.org.err &
